@@ -17,7 +17,7 @@ services:
     deploy:
       resources:
         reservations:
-          devices: 
+          devices:
             - driver: nvidia
               capabilities:
               - gpu
